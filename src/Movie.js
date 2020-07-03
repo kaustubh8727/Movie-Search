@@ -6,18 +6,18 @@ var firebase = require('firebase');
 var uuid = require('uuid');
 
 var firebaseConfig = {
-  apiKey: "AIzaSyDQvywMm1wUJfGFRzze6iJNF2Yyf2gJ20o",
-  authDomain: "moviedb-45fcd.firebaseapp.com",
-  databaseURL: "https://moviedb-45fcd.firebaseio.com",
-  projectId: "moviedb-45fcd",
-  storageBucket: "moviedb-45fcd.appspot.com",
-  messagingSenderId: "434839258961",
-  appId: "1:434839258961:web:4ab92398723b67cde37570",
-  measurementId: "G-VTT76W06DQ"
+  apiKey: [API KEY],
+  authDomain: [AUTH DOMAIN],
+  databaseURL: [DATABASE URL],
+  projectId: [PROJECT ID],
+  storageBucket: [STORAGE BUCKET],
+  messagingSenderId: [MESSAGING SENDER ID],
+  appId: [API ID],
+  measurementId: [MEASURMENT ID]
 };
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
-const api='https://api.themoviedb.org/3/search/movie?api_key=b4c8c199530dda137040f4e809e547b9';
+const api='https://api.themoviedb.org/3/search/movie?api_key=[API KEY]';
 class Movie extends Component {
 constructor(props){
   super(props);
