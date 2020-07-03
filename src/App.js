@@ -7,8 +7,8 @@ import Auth0Lock from 'auth0-lock';
 class App extends Component {
 
   static defaultProps={
-    clientID:'XxTerxqkeHyyb84nGWX3neW5JlhDcU21',
-    domain:'dev-dg0fqlrn.auth0.com'
+    clientID:[YOUR CLIENT ID],
+    domain:[YOUR DOMAIN NAME]
   }
 
 constructor(props){
